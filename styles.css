@@ -1,0 +1,67 @@
+body {
+    color: rgb(255, 255, 255); /* Cor do texto: branco */
+    width: 100%; /* Largura total do corpo da página */
+    height: 10rem; /* Altura do corpo */
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0) 0, rgb(0, 0, 0) 65%, rgb(0, 0, 0) 35%); /* Fundo gradiente do vermelho ao preto */
+    font-family: "New Amsterdam", sans-serif; /* Fonte personalizada */
+}
+.title {
+    color: white; /* Cor do texto: branco */
+    -webkit-text-stroke: 4px black; /* Contorno preto */
+    font-size: 60px; /* Tamanho da fonte */
+}
+.imagem-APEX{
+    border: 3px solid rgb(255, 255, 255); /* Define a borda vermelha de 5 pixels */
+    border-radius: 10px; /* Arredonda os cantos da borda (opcional) */
+}
+header {
+    border-bottom: solid 0.5px rgb(255, 255, 255); /* Linha inferior fina e branca */
+    padding: 20px; /* Espaçamento interno */
+    font-size: 60px; /* Tamanho da fonte do cabeçalho */
+    color: rgb(255, 255, 255); /* Cor do texto: branco */
+}
+
+.chamada {
+    padding-bottom: 25px; /* Espaçamento inferior */
+    padding-top: 80px; /* Espaçamento superior */
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza o conteúdo */
+}
+
+.chamada-texto {
+    margin-right: 5%; /* Espaçamento à direita */
+}
+
+h1 {
+    font-size: 50px; /* Tamanho da fonte do título */
+}
+
+p {
+    font-size: 20px; /* Tamanho da fonte dos parágrafos */
+}
+
+.categoria-videos {
+    display: flex; /* Layout flexível para vídeos */
+    overflow-x: auto; /* Permite rolagem horizontal */
+    gap: 10px; /* Espaçamento entre vídeos */
+}
+
+.categoria {
+    padding-left: 20px; /* Espaçamento à esquerda */
+    padding-right: 20px; /* Espaçamento à direita */
+    margin-top: 50px; /* Margem superior */
+}
+
+.categoria-videos img {
+    opacity: 0.5; /* Imagem parcialmente transparente */
+    height: 200px; /* Altura das imagens dos vídeos */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0; /* Remove a transparência ao passar o mouse */
+    border: 3px solid rgb(255, 255, 255); /* Adiciona borda branca */
+}
+
+.categoria h2 {
+    color: rgb(152, 153, 153); /* Cor do título das categorias: ciano */
+}
